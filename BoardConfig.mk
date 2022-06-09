@@ -38,7 +38,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/Image
 
 BOARD_KERNEL_CMDLINE := androidboot.hardware=universal9611
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --header_version 2 --board SRPSL26A002RU
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --header_version 2 --board SRPTE20A003KU
 
 # Filesystem
 BOARD_HAS_LARGE_FILESYSTEM := true
